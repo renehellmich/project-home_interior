@@ -1,5 +1,5 @@
 @font-face {
-    font-family: 'Helvetice';
+    font-family: 'Helvetica';
     src: url('../fonts/Helvetica\ CE\ Medium.otf');
 }
 @font-face {
@@ -15,6 +15,22 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+
+:root {
+    --color-h2: #3A4F52;
+    --color-p: #6A6A6A;
+}
+
+h2 {
+    color: var(--color-h2);
+    font-family: 'AlegreyaSans500';
+}
+
+p {
+    font-size: 14px;
+    color:var(--color-p);
+    font-family: 'Helvetica';
 }
 
 .img__sc_works {
@@ -63,4 +79,17 @@ header {
 .div__header p {
     font-size: 12px;
     color: grey;
+}
+
+/* section latest works */
+
+.div__latest_works{
+    display: flex;
+    justify-content: space-between;
+}
+.div__latest_works a {
+    border: 2px solid #6A6A6A;
+    color: #6A6A6A;
+    text-decoration: none;
+    
 }
