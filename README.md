@@ -1,1 +1,0 @@
-# project-home_interior
