@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'Helvetice';
+    src: url('../fonts/Helvetica\ CE\ Medium.otf');
+}
+@font-face {
+    font-family: 'AlegreyaSans500';
+    src: url('../fonts/AlegreyaSans-Regular.ttf');
+}
+@font-face {
+    font-family: 'AlegreyaSans100';
+    src: url('../fonts/AlegreyaSC-Medium.ttf');
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.img__sc_works {
+    min-width: 300px;
+    width: 30vw;
+}
