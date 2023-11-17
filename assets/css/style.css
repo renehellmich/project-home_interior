@@ -21,3 +21,46 @@
     min-width: 300px;
     width: 30vw;
 }
+
+header {
+    background: url('../img/story.jpg') center/cover no-repeat;
+    height: 100vh;
+    position: relative;
+}
+
+.nav__header {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 20px;
+}
+
+.div__nav {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+.p__nav {
+    background-color: white;
+    height: 8px;
+    width: 30px;
+    border-radius: 8px;
+}
+
+.div__header {
+    margin: 0;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: 'AlegreyaSans100';
+}
+.div__header h1 {
+    letter-spacing: 10px;
+}
+.div__header p {
+    font-size: 12px;
+    color: grey;
+}
