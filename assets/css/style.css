@@ -31,6 +31,8 @@ h2 {
     padding-bottom: 10px;
 }
 
+
+
 p {
     font-size: 14px;
     color:var(--color-p);
@@ -131,16 +133,17 @@ header {
     align-items:center;
     flex-direction: column;
     background-color: rgba(0, 0 ,0, 0.5);
-    margin: 40px;
+    margin: 70px;
 }
 
 .sc__our-services h2 {
     color: white;
+    margin-top: 20px;
 }
 
 .sc__our-services p {
     color: white;
-    position: relative
+    position: relative;
 }
 
 .div__wrap_our-services {
@@ -156,22 +159,69 @@ header {
     color: white;
 }
 
+.div__our-services-second_level p:last-child {
+    text-align: center;
+}
+
 /* ! hier werden alle 3 Symbole für die Our Services definiert! */
-.p__our-services_content_first::before {
-    /* content: '\2708'; */
-    content: url('../svg/paper-airplane-symbol-svgrepo-com.svg');
-    font-size: 6em;
-    fill: white;
-}
-.p__our-services_content_second::before {
-    /* content: '\2661'; */
-    content: url('../svg/heart-svgrepo-com\ \(3\).svg');
-    font-size: 6em;
-}
-.p__our-services_content_third::before {
-    /* content: '\f030'; */
-    content: url('../svg/camera-alt-2-svgrepo-com\ \(1\).svg');
-    font-size: 6em;
+.div__our-services-second_level img {
+    height: 80px;
+    margin-bottom: 40px;
 }
 
+/* ! start section from the blog */
 
+.sc__from-the-block {
+    padding: 40px 100px;
+}
+.div__from-the-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding-bottom: 40px;
+}
+
+.article__wrap_from-the-block {
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.article__wrap_from-the-block h3 {
+    color: var(--color-p);
+    font-family: 'Helvetica';
+    padding: 20px 0;
+    font-size: 2em;
+}
+
+.article__wrap_from-the-block h4{
+    color: var(--color-p);
+    font-family: 'Helvetica';
+    padding-bottom: 10px;
+    font-size: .75em;
+}
+
+.article__wrap_from-the-block a {
+    text-decoration: none;
+    color: rgb(0, 195, 255);
+}
+
+.div__wrap {
+    display: flex;
+    flex-direction: column;
+    width: calc(100vw / 3 - 100px);
+}
+
+.div__wrap:nth-of-type(1) img {
+    height: 30vh;
+}
+.div__wrap:nth-of-type(2) img {
+    height: 40vh;
+}
+.div__wrap:nth-of-type(3) img {
+    height: 50vh;
+}
+.img__from-the-block {
+    min-width: 360px;
+}
