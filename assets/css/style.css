@@ -22,6 +22,7 @@
 :root {
     --color-h2: #3A4F52;
     --color-p: #6A6A6A;
+    --color-symbols: #FFFFFF;
 }
 
 h2 {
@@ -116,3 +117,61 @@ header {
 }
 
 /* ! Section Our Services */
+
+.sc__our-services {
+    content: '';
+    background: url('../img/design-interior-1.jpg') center/cover no-repeat;
+    height: 100vh;
+    display: flex;
+}
+
+.sc__our-services article {
+    display: flex;
+    justify-content:baseline;
+    align-items:center;
+    flex-direction: column;
+    background-color: rgba(0, 0 ,0, 0.5);
+    margin: 40px;
+}
+
+.sc__our-services h2 {
+    color: white;
+}
+
+.sc__our-services p {
+    color: white;
+    position: relative
+}
+
+.div__wrap_our-services {
+    display:flex;
+    gap: 20px;
+    margin: 20px
+}
+
+.div__our-services-second_level {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+/* ! hier werden alle 3 Symbole für die Our Services definiert! */
+.p__our-services_content_first::before {
+    /* content: '\2708'; */
+    content: url('../svg/paper-airplane-symbol-svgrepo-com.svg');
+    font-size: 6em;
+    fill: white;
+}
+.p__our-services_content_second::before {
+    /* content: '\2661'; */
+    content: url('../svg/heart-svgrepo-com\ \(3\).svg');
+    font-size: 6em;
+}
+.p__our-services_content_third::before {
+    /* content: '\f030'; */
+    content: url('../svg/camera-alt-2-svgrepo-com\ \(1\).svg');
+    font-size: 6em;
+}
+
+
