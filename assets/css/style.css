@@ -362,6 +362,13 @@ header {
     border: 1px solid white;
 }
 
+.form__contact div textarea {
+    padding: 5px;
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+}
+
 footer {
     height: 80px;
     background-color: grey;
