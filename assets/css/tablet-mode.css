@@ -1,0 +1,115 @@
+@media only screen and (max-width: 375px) {
+    .article__wrap_from-the-block {
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+        /* flex-wrap: wrap; */
+        gap: 20px;
+    }
+
+    .sc__latest-works {
+        padding: 10px;
+    }
+    
+    .img__sc_works {
+        min-width: 220px;
+        min-height: 123,75px;
+        width: 100vw;
+    }
+
+    .sc__our-services {
+        content: '';
+        background: url('../img/design-interior-1.jpg') center/cover no-repeat;
+        height: 100vh;
+        /* display: flex; */
+    }
+
+    .sc__our-services article {
+        display: flex;
+        justify-content:baseline;
+        align-items:center;
+        flex-direction: column;
+        background-color: rgba(0, 0 ,0, 0.5);
+        margin: 40px 0;
+    }
+
+    .div__wrap_our-services {
+        display:flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .div__our-services-second_level {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: white;
+    }
+
+    .div__our-services-second_level p {
+        font-size: 12px;
+    }
+
+    .div__our-services-second_level img {
+        height:35px;
+        margin-bottom: 20px;
+    }
+
+    .sc__from-the-block {
+        padding: 20px 0;
+    }
+
+    .article__wrap_from-the-block {
+        display: flex;
+        flex-direction:row;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .div__wrap {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 20px;
+    }
+
+    .sc__free-quote div {
+        display: flex;
+        /* justify-content:baseline; */
+        align-items:center;
+        flex-direction: column;
+        background-color: rgba(0, 0 ,0, 0.5);
+        margin: 40px 0;
+    }
+
+    .sc__free-quote p {
+        color: white;
+        font-size: 14px;
+    }
+    
+    .sc__free-quote a {
+        text-decoration: none;
+        font-size: 10px;
+        color: white;
+        border: 1px solid white;
+        margin-bottom: 10px;
+    }
+
+    .sc__testimonials {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 40px;
+    }
+
+    .article__testimonials {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .div__testimonials_wrap {
+        width: auto;
+        text-align: center;
+    }
+}
