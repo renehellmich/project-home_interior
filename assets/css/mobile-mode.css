@@ -1,32 +1,13 @@
-@media only screen and (min-width: 768px) {
-    .article__wrap_from-the-block {
-        display: flex;
-        flex-direction:column;
-        justify-content: center;
-        /* flex-wrap: wrap; */
-        gap: 20px;
-    }
+@media only screen and (min-width: 375px) {
 
     .sc__latest-works {
         padding: 10px;
     }
-
-    .div__latest_works{
-        display: flex;
-        justify-content: space-between;
-        align-items: baseline;
-        padding-bottom: 40px;
-    }
-
-    .div__img_latest-works {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        gap: 10px;
-    }
     
     .img__sc_works {
-        width: calc(768px / 3 - 20px);
+        min-width: 220px;
+        min-height: 123,75px;
+        width: 100vw;
     }
 
     .sc__our-services {
