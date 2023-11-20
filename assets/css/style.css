@@ -184,8 +184,14 @@ header {
 .article__wrap_from-the-block {
     display: flex;
     flex-direction:row;
+    justify-content: center;
     flex-wrap: wrap;
     gap: 20px;
+}
+
+.article__wrap_from-the-block div {
+    display: flex;
+    flex-direction: column;
 }
 
 .article__wrap_from-the-block h3 {
@@ -210,6 +216,7 @@ header {
 .div__wrap {
     display: flex;
     flex-direction: column;
+    /* flex-wrap: wrap; */
     width: calc(100vw / 3 - 100px);
 }
 
@@ -224,4 +231,147 @@ header {
 }
 .img__from-the-block {
     min-width: 360px;
+}
+
+/* ! Section Free Quote */
+
+.sc__free-quote {
+    background: url('../img/story.jpg') center/cover no-repeat;
+    width: 100vw;
+    display: flex;
+}
+
+.sc__free-quote div {
+    display: flex;
+    justify-content:baseline;
+    align-items:center;
+    flex-direction: column;
+    background-color: rgba(0, 0 ,0, 0.5);
+    margin: 70px;
+}
+
+.sc__free-quote p {
+    color: white;
+    font-size: 2em;
+    margin: 40px;
+}
+
+.sc__free-quote a {
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 10px;
+}
+
+/* ! Hier beginnen die Testimonials */
+
+.sc__testimonials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.div__testimonials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.div__testimonials p {
+    font-size: .7em;
+}
+
+.img__testimonials {
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+}
+
+.article__testimonials {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.div__testimonials_wrap {
+    width: calc(100vw / 3 - 100px);
+    text-align: center;
+}
+
+.div__testimonials_wrap p {
+    color:#6A6A6A;
+    font-size: .8em;
+}
+.div__testimonials_wrap p:nth-of-type(1) {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.div__testimonials_wrap h3 {
+    font-size: 1em;
+}
+
+.sc__contactus {
+    background: url('../img/design-interior-1.jpg') center/cover no-repeat;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form__contact {
+    min-height: 250px;
+    height: 50vh;
+    min-width: 500px;
+    width: 80vw;
+    background-color: rgba(0, 0 ,0, 0.5);
+    margin: 40px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: .8em;
+}
+
+.form__contact div {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    min-width: 300px;
+    width: 40vw;   
+}
+
+.form__contact div input {
+    padding: 5px;
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+}
+
+::placeholder {
+    color: white;
+    opacity: 1;
+}
+
+.form__contact div input:last-of-type {
+    width: 100px;
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+}
+
+footer {
+    height: 80px;
+    background-color: grey;
+    line-height: 80px;
+}
+
+footer p {
+    padding-left: 60px;
+    color: white;
+}
+
+footer p::before {
+    content: "\00A9";
 }
